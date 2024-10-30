@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-color: #E7E7E7;
+    padding-top: 100px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+header h1{
+    position: relative;
+    left: 27%;
+    font-size: 40px;
+    font-weight: bold;  
+}
+
+header img{
+    height: 36px;
+    margin-right: 16px;
+    position: relative;
+    left: 27%;
+}
+
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form{
+    display: flex;
+    max-width: 640px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+form input{
+    font-size: 24px;
+    background-color: #fff;
+    border: none;
+    border-bottom: 2px solid black; 
+    padding: 8px;
+    align-items: center;
+    position: relative;
+    left: 27%;
+    border-radius: 24px;
+}
+
+form button{    
+    color: rgba(0, 0, 0, 0.849);
+    background-color: #6edf99;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 8px;
+    position: relative;
+    left: 27%;
+    border-radius: 24px;
+}
+
+table th{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table{
+    width: 100%;   
+}
+
+table td{
+    text-align: center;
+    font-size: 18px;
+    padding: 16px 0;
+    border-bottom: 1px solid black;
+}
+
+table td img{
+    height: 30px;
+}
+
+.resultado{
+    padding: 8px;
+    font-weight: bold;
+    color: #fff;
+    background-color: black;
+    border-radius: 3px;
+}
+
+.aprovado{
+    background-color: #009432;
+}
+
+.reprovado{
+    background-color: red;
+}
